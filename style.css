@@ -1,0 +1,147 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    font-size: 16px;
+    background-color: rgb(148, 4, 84);
+    margin: 0;
+ }
+
+#header-nav{
+    background-color:rgb(255, 246, 230);
+    max-height: 40px;
+
+ }
+ .vanbar-brand h1{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 1.8em;
+    font-weight: bold;
+    text-transform: uppercase;
+    text-shadow: 1px 1px 1px #222222;
+    margin-top: 10px;
+    margin-bottom: 0;
+    color: rgb(148, 4, 84);
+}
+.vanbar-brand a, .vanbar-brand a:visited, .vanbar-brand a:hover {
+    text-decoration: none;
+}
+
+.row a, .row a:visited, .row a:hover{
+    text-decoration: none;
+}
+#home-tiles P {
+    padding: 10px;
+    text-align: justify;
+}
+#home-tiles .row{
+    margin-bottom: 8px;
+}
+
+.navbar-toggle {
+    position: relative;
+    float: right;
+    padding: 9px 10px;
+    margin-right: 15px;
+    margin-bottom: 8px;
+    background-color: transparent;
+    background-image: none;
+    border: 1px solid transparent;
+    border-radius: 4px
+
+}
+@media(min-width: 1200px){
+
+}
+
+@media(min-width: 992px) and (max-width: 1199px){
+
+}
+
+@media(min-width: 768px)and(max-width:991px){
+
+}
+
+
+@media(max-width:767px){
+
+}
+#nav-list a {
+    color:rgb(148, 4, 84);
+    font-size: 1.2em;
+    text-align: center;
+    padding: 12px;
+    width: 100%;
+    background-color:rgb(255, 246, 230);
+}
+#nav-list a:hover{
+    background-color: antiquewhite;
+}
+.navbar-default .navbar-toggle {
+    border-color: rgb(148, 4, 84);
+}
+.navbar-default .navbar-toggle .icon-bar{
+    background-color:rgb(148, 4, 84);
+}
+h1{
+    text-align: center;
+    margin-bottom: 30px;
+    color:rgb(255, 246, 230)
+}
+#home-tiles P {
+    padding: 10px;
+    text-align: justify;
+}
+div .row{
+    text-align: center;
+    color: rgb(148, 4, 84);
+    margin: 5px;
+    width: 100%;
+
+}
+#Chicken-tile, #beef-tile, #suchi-tile{
+    height: 150px;
+    width: 100%;
+    margin-bottom: 20px;
+    position: relative;
+    border: 1.5px solid rgb(255, 246, 230);
+    overflow: auto;
+}
+#Chicken-tile:hover, #beef-tile:hover, #suchi-tile:hover{
+    box-shadow: 0 1px 5px 1px rgb(103, 2, 57);
+}
+#Chicken-tile span, #beef-tile span, #suchi-tile span{
+    position: absolute;
+    top: 0%;
+    right: 0;
+    width: 100%;
+    text-align: center;
+    font-size: 1.2em;
+    font-weight: bold;
+    text-decoration: uppercase;
+    background-color: beige;
+    color: rgb(148, 4, 84);
+}
+#home-tiles P {
+    color: beige;
+    text-decoration: none;
+}
+.panel-footer{
+    margin-top: 50px;
+    font-size: 0.7em;
+    background-color: antiquewhite;
+}
+
+h2{
+    text-align: center;
+    margin-bottom: 30px;
+    color:rgb(255, 246, 230)
+}
+.category-tile{
+    position: relative;
+    border: 1px solid rgb(255, 246, 230);
+}
+#Chicken-tile-single  p{
+    padding: 10px;
+    text-align: justify;
+    color: rgb(255, 246, 230);
+}
